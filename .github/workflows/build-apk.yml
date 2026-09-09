@@ -25,7 +25,8 @@ jobs:
           channel: 'stable'
 
       - name: Create platform files
-              run: flutter create --platforms=android --project-name expense_tracker .
+        run: flutter create --platforms=android --project-name expense_tracker .
+
       - name: Get dependencies
         run: flutter pub get
 
